@@ -78,7 +78,7 @@ main() {
     exit 1
   }
   
-  sed -i -e 's/.*ZSH_CUSTOM=.*/ZSH_CUSTOM=$ZSH/custom/CrossPlatformProfileBasedOnOnMyZSH/g'  ~/.zshrc
+  sed -i -e 's/.*ZSH_CUSTOM=.*/ZSH_CUSTOM=$ZSH\/custom\/CrossPlatformProfileBasedOnOnMyZSH/g'  ~/.zshrc
 
   #
   # printf "${GREEN}"
