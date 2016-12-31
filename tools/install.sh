@@ -78,9 +78,7 @@ main() {
     exit 1
   }
   
-  LoadLineNumber=$(grep -n oh-my-zsh.sh ~/.zshrc)
-  echo "number: $LoadLineNumber"
-  echo "ZSH_CUSTOM=$ZSH/custom/CrossPlatformProfileBasedOnOnMyZSH" >> ~/.zshrc
+  sed -i -e 's/.*ZSH_CUSTOM=.*/ZSH_CUSTOM=$ZSH/custom/CrossPlatformProfileBasedOnOnMyZSH/g'  ~/.zshrc
 
   #
   # printf "${GREEN}"
