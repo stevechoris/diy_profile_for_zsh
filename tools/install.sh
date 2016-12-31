@@ -77,7 +77,9 @@ main() {
     printf "Error: git clone of CrossPlatformProfileBasedOnOnMyZSH repo failed\n"
     exit 1
   }
-
+  
+  LoadLineNumber=$(grep -n oh-my-zsh.sh ~/.zshrc)
+  echo "number: $LoadLineNumber"
   echo "ZSH_CUSTOM=$ZSH/custom/CrossPlatformProfileBasedOnOnMyZSH" >> ~/.zshrc
 
   #
