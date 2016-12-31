@@ -1,11 +1,3 @@
-# @Author: guanwanxian
-# @Date:   2016-12-31T10:12:37+08:00
-# @Email:  guanwanxian@zju.edu.cn
-# @Last modified by:   guanwanxian
-# @Last modified time: 2016-12-31T11:39:09+08:00
-
-
-
 main() {
   # Use colors, but only if connected to a terminal, and that terminal
   # supports them.
