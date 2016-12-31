@@ -1,4 +1,4 @@
-# CrossPlatformProfileBasedOnOnMyZSH
+# CrossPlatformProfileBasedOnOhMyZSH
 
 ## Install
 
