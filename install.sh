@@ -64,17 +64,16 @@ main() {
 
   # Set ZSH_CUSTOM to the path where your custom config files
   # and plugins exists, or else we will use the default custom/
-  if [[ -z "$ZSH_CUSTOM" ]]; then
+  if [ -z "$ZSH_CUSTOM" ]; then
       ZSH_CUSTOM="$ZSH/custom"
-
   fi
 
   # Set ZSH_CUSTOM_PROFILE_ADDON to the folder of CrossPlatformProfileBasedOnOnMyZSH
   # under $ZSH_CUSTOM
-  ZSH_CUSTOM_PROFILE_ADDON="$ZSH_CUSTOM/CrossPlatformProfileBasedOnOnMyZSH"
+  ZSH_CUSTOM_PROFILE_ADDON=$ZSH_CUSTOM/CrossPlatformProfileBasedOnOnMyZSH
   echo "ZSH_CUSTOM_PROFILE_ADDON path: $ZSH_CUSTOM_PROFILE_ADDON"
 
-  env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH_CUSTOM_PROFILE_ADDON || {
+  env git clone --depth=1 https://github.com/stevechoris/CrossPlatformProfileBasedOnOnMyZSH.git $ZSH_CUSTOM_PROFILE_ADDON || {
     printf "Error: git clone of CrossPlatformProfileBasedOnOnMyZSH repo failed\n"
     exit 1
   }
