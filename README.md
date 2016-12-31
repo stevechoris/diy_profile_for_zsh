@@ -4,6 +4,6 @@
 
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/stevechoris/CrossPlatformProfileBasedOnOnMyZSH/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/stevechoris/CrossPlatformProfileBasedOnOhMyZSH/master/tools/install.sh)"
 ```
 
