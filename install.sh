@@ -1,3 +1,11 @@
+# @Author: guanwanxian
+# @Date:   2016-12-31T13:10:08+08:00
+# @Email:  guanwanxian@zju.edu.cn
+# @Last modified by:   guanwanxian
+# @Last modified time: 2016-12-31T13:30:52+08:00
+
+
+
 main() {
   # Use colors, but only if connected to a terminal, and that terminal
   # supports them.
@@ -78,33 +86,8 @@ main() {
     exit 1
   }
 
+  echo "ZSH_CUSTOM=$ZSH/custom/CrossPlatformProfileBasedOnOnMyZSH" >> ~/.zshrc
 
-  # printf "${BLUE}Looking for an existing zsh config...${NORMAL}\n"
-  # if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then
-  #   printf "${YELLOW}Found ~/.zshrc.${NORMAL} ${GREEN}Backing up to ~/.zshrc.pre-oh-my-zsh${NORMAL}\n";
-  #   mv ~/.zshrc ~/.zshrc.pre-oh-my-zsh;
-  # fi
-  #
-  # printf "${BLUE}Using the Oh My Zsh template file and adding it to ~/.zshrc${NORMAL}\n"
-  # cp $ZSH/templates/zshrc.zsh-template ~/.zshrc
-  # sed "/^export ZSH=/ c\\
-  # export ZSH=$ZSH
-  # " ~/.zshrc > ~/.zshrc-omztemp
-  # mv -f ~/.zshrc-omztemp ~/.zshrc
-  #
-  # # If this user's login shell is not already "zsh", attempt to switch.
-  # TEST_CURRENT_SHELL=$(expr "$SHELL" : '.*/\(.*\)')
-  # if [ "$TEST_CURRENT_SHELL" != "zsh" ]; then
-  #   # If this platform provides a "chsh" command (not Cygwin), do it, man!
-  #   if hash chsh >/dev/null 2>&1; then
-  #     printf "${BLUE}Time to change your default shell to zsh!${NORMAL}\n"
-  #     chsh -s $(grep /zsh$ /etc/shells | tail -1)
-  #   # Else, suggest the user do so manually.
-  #   else
-  #     printf "I can't change your shell automatically because this system does not have chsh.\n"
-  #     printf "${BLUE}Please manually change your default shell to zsh!${NORMAL}\n"
-  #   fi
-  # fi
   #
   # printf "${GREEN}"
   # echo '         __                                     __   '
