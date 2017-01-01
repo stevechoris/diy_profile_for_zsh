@@ -1,6 +1,6 @@
 # CrossPlatformProfileBasedOnOhMyZsh
 
-I always switch between Mac OS and Linux, and use shell commands frequently. So i want to make a unified and customizable profile file for my shell. For example, you may want to set an alias command for a long length command only available in Mac OS or otherwise. I made this little script plugin based on OhMyZsh to fulfill this demand.
+I always switch between Mac OS and Linux, and use shell commands frequently. So i want to make a unified and customizable profile file for my shell. For example, you may want to set an alias command for a long length command only available on Mac OS or otherwise. I made this little script plugin based on OhMyZsh to fulfill this demand.
 
 ## Prerequisite
 
