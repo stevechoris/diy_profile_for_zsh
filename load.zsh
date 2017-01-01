@@ -10,10 +10,8 @@ fi
 source $ZSH_CUSTOM/CustomShellScripts/all.sh
 if [[ "$OSTYPE" = darwin* ]]; then
   source $ZSH_CUSTOM/CustomShellScripts/mac.sh
-  echo "Mac OS"
 elif [[ "$OSTYPE" = linux* ]]; then 
   source $ZSH_CUSTOM/CustomShellScripts/linux.sh
-  echo "Linux OS"
 else
   echo "Other OS"
 fi

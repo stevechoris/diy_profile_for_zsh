@@ -2,7 +2,7 @@
 # @Date:   2016-12-31T09:12:23+08:00
 # @Email:  guanwanxian@zju.edu.cn
 # @Last modified by:   guanwanxian
-# @Last modified time: 2016-12-31T10:05:38+08:00
+# @Last modified time: 2017-01-01T14:29:46+08:00
 
 #  ---------------------------------------------------------------------------
 #
@@ -14,7 +14,6 @@
 #  3.  TMUX COMMANDS CONFIGURATION
 #
 #  ---------------------------------------------------------------------------
-echo "Load all platform custom profile"
 
 
 
