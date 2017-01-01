@@ -2,16 +2,17 @@
 # @Date:   2016-12-31T09:12:23+08:00
 # @Email:  guanwanxian@zju.edu.cn
 # @Last modified by:   guanwanxian
-# @Last modified time: 2017-01-01T14:29:46+08:00
+# @Last modified time: 2017-01-01T14:47:58+08:00
 
 #  ---------------------------------------------------------------------------
 #
 #  Description:  This file holds all my BASH configurations and aliases
 #
 #  Sections:
-#  1.   SHELL COMMANDS ALIAS
-#  2.   GIT COMMANDS CONFIGURATION
+#  1.  SHELL COMMANDS ALIAS
+#  2.  GIT COMMANDS CONFIGURATION
 #  3.  TMUX COMMANDS CONFIGURATION
+#  4.  CHEAT COMMANDS CONFIGURATION
 #
 #  ---------------------------------------------------------------------------
 
@@ -108,3 +109,13 @@ alias tmk='tmux kill-session -t'
 #   Connect to Tmux Sessions
 #   ------------------------------------------------------------
 alias tmc='tmux a -t'
+
+
+
+#   -------------------------------
+#   4.  CHEAT COMMANDS CONFIGURATION
+#   -------------------------------
+
+#   List Tmux Sessions
+#   ------------------------------------------------------------
+export CHEATCOLORS=true

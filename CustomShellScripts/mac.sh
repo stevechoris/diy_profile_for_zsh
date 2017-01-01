@@ -2,7 +2,7 @@
 # @Date:   2016-12-31T09:12:42+08:00
 # @Email:  guanwanxian@zju.edu.cn
 # @Last modified by:   guanwanxian
-# @Last modified time: 2017-01-01T14:29:38+08:00
+# @Last modified time: 2017-01-01T14:47:25+08:00
 
 
 #  ---------------------------------------------------------------------------
@@ -11,8 +11,9 @@
 #
 #  Sections:
 #  1.   OhMyZSH COMMANDS
-#  2.   MacVim
-#  3.   *Third-Party SOFTWARES COMMANDS
+#  2.   DEFAULT SHELL COMMANDS
+#  3.   MacVim
+#  4.   *Third-Party SOFTWARES COMMANDS
 #
 #  ---------------------------------------------------------------------------
 
@@ -33,9 +34,18 @@ alias qc="quick-look"
 alias cfd="cdf"
 
 
+#   -------------------------------
+#   2.  DEFAULT SHELL COMMANDS
+#   -------------------------------
+
+#   Set Default Editor
+#   ------------------------------------------------------------
+export EDITOR="/usr/local/bin/mvim"
+
+
 
 #   -------------------------------
-#   2.  MacVim
+#   3.  MacVim
 #   -------------------------------
 
 #   Set Default Vim To MacVim
@@ -45,7 +55,7 @@ alias vim='mvim -v'
 
 
 #   -------------------------------
-#   3.   *Third-Party SOFTWARES COMMANDS
+#   4.   *Third-Party SOFTWARES COMMANDS
 #   -------------------------------
 
 #   Hexo
