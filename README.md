@@ -1,9 +1,9 @@
-# CrossPlatformProfileBasedOnOhMyZSH
+# CrossPlatformProfileBasedOnOhMyZsh
 
 ## Install
 
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/stevechoris/CrossPlatformProfileBasedOnOhMyZSH/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/stevechoris/CrossPlatformProfileBasedOnOhMyZsh/master/tools/install.sh)"
 ```
 
