@@ -70,34 +70,21 @@ main() {
 
   # Set ZSH_CUSTOM_PROFILE_ADDON to the folder of CrossPlatformProfileBasedOnOnMyZSH
   # under $ZSH_CUSTOM
-  ZSH_CUSTOM_PROFILE_ADDON=$ZSH_CUSTOM/CrossPlatformProfileBasedOnOnMyZSH
+  ZSH_CUSTOM_PROFILE_ADDON=$ZSH_CUSTOM/CrossPlatformProfileBasedOnOhMyZsh
   echo "ZSH_CUSTOM_PROFILE_ADDON path: $ZSH_CUSTOM_PROFILE_ADDON"
 
-  env git clone --depth=1 https://github.com/stevechoris/CrossPlatformProfileBasedOnOnMyZSH.git $ZSH_CUSTOM_PROFILE_ADDON || {
-    printf "Error: git clone of CrossPlatformProfileBasedOnOnMyZSH repo failed\n"
+  env git clone --depth=1 https://github.com/stevechoris/CrossPlatformProfileBasedOnOhMyZsh.git $ZSH_CUSTOM_PROFILE_ADDON || {
+    printf "Error: git clone of CrossPlatformProfileBasedOnOhMyZsh repo failed\n"
     exit 1
   }
   
-  sed -i -e 's/.*ZSH_CUSTOM=.*/ZSH_CUSTOM=$ZSH\/custom\/CrossPlatformProfileBasedOnOnMyZSH/g'  ~/.zshrc
+  sed -i -e 's/.*ZSH_CUSTOM=.*/ZSH_CUSTOM=$ZSH\/custom\/CrossPlatformProfileBasedOnOhMyZsh/g'  ~/.zshrc
 
-  #
-  # printf "${GREEN}"
-  # echo '         __                                     __   '
-  # echo '  ____  / /_     ____ ___  __  __   ____  _____/ /_  '
-  # echo ' / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ '
-  # echo '/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / '
-  # echo '\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  '
-  # echo '                        /____/                       ....is now installed!'
-  # echo ''
-  # echo ''
-  # echo 'Please look over the ~/.zshrc file to select plugins, themes, and options.'
-  # echo ''
-  # echo 'p.s. Follow us at https://twitter.com/ohmyzsh.'
-  # echo ''
-  # echo 'p.p.s. Get stickers and t-shirts at http://shop.planetargon.com.'
-  # echo ''
-  # printf "${NORMAL}"
-  # env zsh
+  
+  printf "${GREEN}"
+  echo 'CrossPlatformProfileBasedOnOhMyZsh is now installed!'
+  printf "${NORMAL}"
+  env zsh
 }
 
 main
