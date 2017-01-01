@@ -8,12 +8,12 @@ I always switch between Mac OS and Linux, and use shell commands frequently. So 
 
 - Zsh 
 
-you can install Zsh with the guidance of [this page](with the guidance of this page)
+  you can install Zsh with the guidance of [this page](with the guidance of this page)
 
 
 - OhMyZsh
 
-It's very easy to install OhMyZsh with just [oneline command](http://ohmyz.sh/)
+  It's very easy to install OhMyZsh with just [oneline command](http://ohmyz.sh/)
 
 
 ## Installation
