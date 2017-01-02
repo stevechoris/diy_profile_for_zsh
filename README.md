@@ -29,7 +29,7 @@ I always switch between Mac OS and Linux, and use shell commands frequently. So 
   Open .zshrc file in your home directory, uncomment and change the following line
   `# ZSH_CUSTOM=/path/to/new-custom-folder`
   into
-  'ZSH_CUSTOM=home/choris/CrossPlatformProfileBasedOnOhMyZsh'
+  `ZSH_CUSTOM=home/choris/CrossPlatformProfileBasedOnOhMyZsh`
 
 - Enable this plugin
 
