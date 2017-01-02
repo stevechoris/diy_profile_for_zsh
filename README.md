@@ -8,7 +8,7 @@ I always switch between Mac OS and Linux, and use shell commands frequently. So 
 
 - Zsh 
 
-  you can install Zsh with the guidance of [this page](https://github.com/robbyrussell/oh-my-zsh/wiki)
+  you can install Zsh with the guidance of [this page](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
 
 - OhMyZsh
