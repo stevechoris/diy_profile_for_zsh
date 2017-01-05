@@ -22,6 +22,10 @@
 #   1.  SHELL COMMANDS ALIAS
 #   -------------------------------
 
+#   Update Profile 
+#   ------------------------------------------------------------
+alias update_profile="source ~/.zshrc"
+
 #   Clear Prompt
 #   ------------------------------------------------------------
 alias c="clear"
