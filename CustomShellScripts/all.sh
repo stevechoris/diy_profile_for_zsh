@@ -86,7 +86,7 @@ alias gitsee_track_local="git branch -vv"
 
 #   Show Tracking Branchs Of Remote Repository Origin
 #   ------------------------------------------------------------
-alias gitsee_track_remore="git remote show origin"
+alias gitsee_track_remote="git remote show origin"
 
 
 
