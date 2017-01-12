@@ -32,7 +32,11 @@ alias myprofile="cd $ZSH_CUSTOM"
 
 #   Update Profile 
 #   ------------------------------------------------------------
-alias update_profile="source ~/.zshrc"
+alias up_profile="source ~/.zshrc"
+
+#   Update Profile From Github
+#   ------------------------------------------------------------
+alias up_profile_github="cd $ZSH_CUSTOM/CustomShellScripts && git pull && cd - && source ~/.zshrc"
 
 #   Clear Prompt
 #   ------------------------------------------------------------
