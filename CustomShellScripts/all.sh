@@ -13,6 +13,7 @@
 #  2.  GIT COMMANDS CONFIGURATION
 #  3.  TMUX COMMANDS CONFIGURATION
 #  4.  CHEAT COMMANDS CONFIGURATION
+#  5.  *Third-Party SOFTWARES COMMANDS
 #
 #  ---------------------------------------------------------------------------
 
@@ -135,3 +136,11 @@ alias tmc='tmux a -t'
 #   List Tmux Sessions
 #   ------------------------------------------------------------
 export CHEATCOLORS=true
+
+#   -------------------------------
+#   5. *Third-Party SOFTWARES COMMANDS 
+#   -------------------------------
+
+#   gpustat 
+#   ------------------------------------------------------------
+alias topg="gpustat -cup"
