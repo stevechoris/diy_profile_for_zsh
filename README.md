@@ -33,7 +33,7 @@ I always switch between Mac OS and Linux, and use shell commands frequently. So 
 
 - Enable this plugin
 
-  Just restart your terminal or run `source ~/.zshrc`, and you can enjoy all the custom settings defied in **CustomShellScripts** folder
+  Just restart your terminal or run `source ~/.zshrc`, and you can enjoy all the custom settings defined in **CustomShellScripts** folder
 
 ### 2. Install with shell script(recommended)
 
