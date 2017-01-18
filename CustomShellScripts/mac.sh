@@ -43,6 +43,9 @@ alias cfd="cdf"
 export EDITOR="/usr/local/bin/mvim"
 
 
+#   Update Database For Locate Command 
+#   ------------------------------------------------------------
+alias updatedb="sudo /usr/libexec/locate.updatedb"
 
 #   -------------------------------
 #   3.  MacVim
