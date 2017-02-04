@@ -39,6 +39,10 @@ alias up_profile="source ~/.zshrc"
 #   ------------------------------------------------------------
 alias up_profile_github="cd $ZSH_CUSTOM && git pull && cd - && source ~/.zshrc"
 
+#   List All Files 
+#   ------------------------------------------------------------
+alias la="ls -a"
+
 #   Clear Prompt
 #   ------------------------------------------------------------
 alias c="clear"
