@@ -72,3 +72,7 @@ alias combimg="convert -append"
 #   SpeedTest
 #   ------------------------------------------------------------
 alias speed="speedtest-cli --bytes --timeout 100 --share"
+
+#   You-Get 
+#   ------------------------------------------------------------
+alias yget="you-get -o ~/Downloads "
