@@ -25,7 +25,7 @@
 
 #   Alias Self 
 #   ------------------------------------------------------------
-alias a="alias" 
+#   alias a="alias" 
 
 #   CD ZSH_CUSTOM 
 #   ------------------------------------------------------------
@@ -41,7 +41,10 @@ alias up_profile_github="cd $ZSH_CUSTOM && git pull && cd - && source ~/.zshrc"
 
 #   List All Files 
 #   ------------------------------------------------------------
+alias a="ls -a"
+alias l="ls -al"
 alias la="ls -a"
+alias ll="ls -l"
 
 #   Clear Prompt
 #   ------------------------------------------------------------
