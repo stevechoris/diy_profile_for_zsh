@@ -39,6 +39,10 @@ alias up_profile="source ~/.zshrc"
 #   ------------------------------------------------------------
 alias up_profile_github="cd $ZSH_CUSTOM && git pull && cd - && source ~/.zshrc"
 
+#   Update Homebrew 
+#   ------------------------------------------------------------
+alias up_brew="brew update && brew upgrade"
+
 #   List All Files 
 #   ------------------------------------------------------------
 alias a="ls -a"
