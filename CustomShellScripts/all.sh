@@ -155,3 +155,7 @@ export CHEATCOLORS=true
 #   gpustat 
 #   ------------------------------------------------------------
 alias topg="gpustat -cup"
+
+#   thefuck 
+#   ------------------------------------------------------------
+eval $(thefuck --alias)
