@@ -98,23 +98,23 @@ alias gib="git branch"
 
 #   Show All Local Branchs
 #   ------------------------------------------------------------
-alias gitsee_local="git branch"
+alias g_local="git branch"
 
 #   Show All Remote Branchs
 #   ------------------------------------------------------------
-alias gitsee_remote="git branch -r"
+alias g_remote="git branch -r"
 
 #   Shoa Both Local And Remote Branchs
 #   ------------------------------------------------------------
-alias gitsee_all="git branch -a"
+alias g_all="git branch -a"
 
 #   Show Local Tracking Branchs
 #   ------------------------------------------------------------
-alias gitsee_track_local="git branch -vv"
+alias g_track_local="git branch -vv"
 
 #   Show Tracking Branchs Of Remote Repository Origin
 #   ------------------------------------------------------------
-alias gitsee_track_remote="git remote show origin"
+alias g_track_remote="git remote show origin"
 
 
 
