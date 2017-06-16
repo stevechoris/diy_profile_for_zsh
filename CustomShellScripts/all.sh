@@ -87,6 +87,7 @@ alias p="proxychains4"
 #   Git Status
 #   ------------------------------------------------------------
 alias gis="git status"
+alias gisr="git remote update && git status -uno"
 
 #   Git Diff
 #   ------------------------------------------------------------
