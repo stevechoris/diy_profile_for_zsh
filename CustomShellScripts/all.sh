@@ -159,3 +159,8 @@ alias topg="gpustat -cup"
 #   thefuck 
 #   ------------------------------------------------------------
 eval $(thefuck --alias)
+
+#   odps 
+#   ------------------------------------------------------------
+alias of="odps -f"
+alias oe="odps -e"
