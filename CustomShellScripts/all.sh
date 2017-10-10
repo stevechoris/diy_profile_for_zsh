@@ -59,7 +59,8 @@ alias rmr="rm -r"
 
 #   Counting Lines
 #   ------------------------------------------------------------
-alias wcl="wc -l"
+wclFunc() {ls $1 | wc -l }
+alias wcl="wclFunc"
 
 #   Compress Files Using TAR
 #   ------------------------------------------------------------
