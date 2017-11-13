@@ -149,9 +149,9 @@ export CHEATCOLORS=true
 #   ------------------------------------------------------------
 alias topg="gpustat -cup"
 
-#   colordiff
+#   colordiff # replace default diff
 #   ------------------------------------------------------------
-alias cdiff="colordiff"
+alias diff="colordiff"
 
 #   thefuck 
 #   ------------------------------------------------------------
