@@ -121,7 +121,7 @@ alias tml='tmux ls'
 
 #   Create Tmux Sessions
 #   ------------------------------------------------------------
-alias tmn='tmux new -s'
+alias tmc='tmux new -s'
 
 #   Kill Tmux Sessions
 #   ------------------------------------------------------------
@@ -129,7 +129,7 @@ alias tmk='tmux kill-session -t'
 
 #   Connect to Tmux Sessions
 #   ------------------------------------------------------------
-alias tmc='tmux a -t'
+alias tma='tmux a -t'
 
 
 
