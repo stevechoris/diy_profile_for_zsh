@@ -63,7 +63,7 @@ alias vim='mvim -v'
 
 #   Hexo
 #   ------------------------------------------------------------
-alias hexo_deploy="hexo deploy -g"
+alias hexo_deploy="hexo clean && hexo deploy -g"
 
 #   Combine Images
 #   ------------------------------------------------------------
