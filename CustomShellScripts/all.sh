@@ -91,23 +91,23 @@ alias gisr="git remote update && git status -uno"
 
 #   Show All Local Branchs
 #   ------------------------------------------------------------
-alias g_local="git branch"
+alias gis_local="git branch"
 
 #   Show All Remote Branchs
 #   ------------------------------------------------------------
-alias g_remote="git branch -r"
+alias gis_remote="git branch -r"
 
 #   Shoa Both Local And Remote Branchs
 #   ------------------------------------------------------------
-alias g_all="git branch -a"
+alias gis_all="git branch -a"
 
 #   Show Local Tracking Branchs
 #   ------------------------------------------------------------
-alias g_track_local="git branch -vv"
+alias gis_track_local="git branch -vv"
 
 #   Show Tracking Branchs Of Remote Repository Origin
 #   ------------------------------------------------------------
-alias g_track_remote="git remote show origin"
+alias gis_track_remote="git remote show origin"
 
 
 
