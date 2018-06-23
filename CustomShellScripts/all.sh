@@ -109,6 +109,10 @@ alias gis_track_local="git branch -vv"
 #   ------------------------------------------------------------
 alias gis_track_remote="git remote show origin"
 
+#   Quick Update Code 
+#   ------------------------------------------------------------
+alias gis_up="git add -A && git commit -m 'submit code' && git push"
+
 
 
 #   -------------------------------
