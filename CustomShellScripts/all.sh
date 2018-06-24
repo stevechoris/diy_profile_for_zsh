@@ -45,8 +45,8 @@ alias up_brew="brew update && brew upgrade"
 
 #   List All Files 
 #   ------------------------------------------------------------
-alias lal="ls -al"
-alias lsl="ls -l"
+alias a="ls -al"
+alias l="ls -l"
 alias la="ls -a"
 
 #   Clear Prompt
