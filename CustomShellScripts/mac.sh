@@ -40,7 +40,7 @@ alias cfd="cdf"
 
 #   Set Default Editor
 #   ------------------------------------------------------------
-export EDITOR="/usr/local/bin/mvim"
+export EDITOR="/usr/local/bin/nvim"
 
 
 #   Update Database For Locate Command 
@@ -51,9 +51,10 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 #   3.  MacVim
 #   -------------------------------
 
-#   Set Default Vim To MacVim
+#   Set Default Vim To NeoVim
 #   ------------------------------------------------------------
-alias vim='mvim -v'
+alias vim='nvim'
+alias vi='nvim'
 
 
 
