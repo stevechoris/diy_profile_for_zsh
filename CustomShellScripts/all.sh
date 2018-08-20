@@ -109,11 +109,6 @@ alias gis_track_local="git branch -vv"
 #   ------------------------------------------------------------
 alias gis_track_remote="git remote show origin"
 
-#   Quick Update Code 
-#   ------------------------------------------------------------
-alias gisup="git add -A && git commit -m 'submit code' && git push"
-
-
 
 #   -------------------------------
 #   3.  TMUX COMMANDS CONFIGURATION
