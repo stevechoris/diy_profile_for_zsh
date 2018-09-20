@@ -86,7 +86,7 @@ alias p="proxychains4"
 
 #   Git Status
 #   ------------------------------------------------------------
-alias gis="git status"
+alias gis="git status -uno"
 alias gisr="git remote update && git status -uno"
 
 #   Show All Local Branchs
